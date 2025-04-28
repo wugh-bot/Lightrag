@@ -1,0 +1,1519 @@
+2025-03-30 09:01:03,380 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:01:03,381 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:01:03,381 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:01:03,381 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:01:03,381 - lightrag - INFO - Loaded document status storage with 0 records
+2025-03-30 09:06:27,768 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:06:27,768 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:06:27,769 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:06:27,770 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:06:27,772 - lightrag - INFO - Loaded document status storage with 0 records
+2025-03-30 09:07:59,526 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:07:59,527 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:07:59,528 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:07:59,528 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:07:59,530 - lightrag - INFO - Loaded document status storage with 0 records
+2025-03-30 09:10:22,675 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:10:22,676 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:10:22,676 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:10:22,677 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:10:22,678 - lightrag - INFO - Loaded document status storage with 0 records
+2025-03-30 09:12:05,993 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:12:05,994 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:12:05,995 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:12:05,995 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:12:05,999 - lightrag - INFO - Loaded document status storage with 0 records
+2025-03-30 09:14:55,669 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:14:55,670 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:14:55,671 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:14:55,671 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:14:55,673 - lightrag - INFO - Loaded document status storage with 0 records
+2025-03-30 09:15:11,028 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 09:15:11,728 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 09:15:12,326 - lightrag - ERROR - Failed to process document doc-01552b97239ea0a5b822362ae109507f: 'LightRAGAgent' object has no attribute 'llm_base_url'
+Traceback (most recent call last):
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 440, in ainsert
+    raise e
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 400, in ainsert
+    maybe_new_kg = await extract_entities(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 379, in extract_entities
+    results.append(await result)
+                   ^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\asyncio\tasks.py", line 615, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 313, in _process_single_content
+    final_result = await use_llm_func(hint_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\agents\lightrag.py", line 39, in llm_model_func
+    base_url=self.llm_base_url,
+             ^^^^^^^^^^^^^^^^^
+AttributeError: 'LightRAGAgent' object has no attribute 'llm_base_url'
+
+2025-03-30 09:15:12,337 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-30 09:17:22,640 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:17:22,640 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:17:22,640 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:17:22,643 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:17:22,643 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:17:22,651 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:18:25,990 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:18:25,990 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:18:25,990 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:18:25,990 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:18:25,990 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:18:25,995 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:20:14,285 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:20:14,286 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:20:14,287 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:20:14,287 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:20:14,290 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:20:14,293 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:21:06,480 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:21:06,486 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:21:06,487 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:21:06,487 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:21:06,489 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:21:06,494 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:21:06,494 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:21:06,495 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:21:06,496 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:21:06,496 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:21:06,497 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:21:06,502 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:21:24,542 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 09:21:25,603 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 09:22:35,484 - lightrag - ERROR - Failed to process document doc-01552b97239ea0a5b822362ae109507f: RetryError[<Future at 0x1557b1c6650 state=finished raised APITimeoutError>]
+Traceback (most recent call last):
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_transports\default.py", line 394, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_async\connection_pool.py", line 256, in handle_async_request
+    raise exc from None
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_async\connection_pool.py", line 236, in handle_async_request
+    response = await connection.handle_async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_async\connection.py", line 101, in handle_async_request
+    raise exc
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_async\connection.py", line 78, in handle_async_request
+    stream = await self._connect(request)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_async\connection.py", line 124, in _connect
+    stream = await self._network_backend.connect_tcp(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_backends\auto.py", line 31, in connect_tcp
+    return await self._backend.connect_tcp(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_backends\anyio.py", line 113, in connect_tcp
+    with map_exceptions(exc_map):
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1500, in _request
+    response = await self._client.send(
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_client.py", line 1629, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_client.py", line 1657, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_client.py", line 1694, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_client.py", line 1730, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_transports\default.py", line 393, in handle_async_request
+    with map_httpcore_exceptions():
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ConnectTimeout
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\llm.py", line 87, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1509, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1594, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1509, in _request
+    return await self._retry_request(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1594, in _retry_request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1519, in _request
+    raise APITimeoutError(request=request) from err
+openai.APITimeoutError: Request timed out.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 440, in ainsert
+    raise e
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 400, in ainsert
+    maybe_new_kg = await extract_entities(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 379, in extract_entities
+    results.append(await result)
+                   ^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\asyncio\tasks.py", line 615, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 313, in _process_single_content
+    final_result = await use_llm_func(hint_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\agents\lightrag.py", line 55, in llm_model_func
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\__init__.py", line 419, in exc_check
+    raise retry_exc from fut.exception()
+tenacity.RetryError: RetryError[<Future at 0x1557b1c6650 state=finished raised APITimeoutError>]
+
+2025-03-30 09:22:35,503 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2025-03-30 09:29:23,557 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:29:23,559 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:29:23,560 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:29:23,560 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:29:23,561 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:29:23,564 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:29:23,565 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 09:29:23,566 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2025-03-30 09:29:23,566 - lightrag - INFO - Load KV full_docs with 0 data
+2025-03-30 09:29:23,566 - lightrag - INFO - Load KV text_chunks with 0 data
+2025-03-30 09:29:23,568 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2025-03-30 09:29:23,571 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 09:29:39,899 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 09:29:40,447 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 09:31:53,536 - lightrag - INFO - Inserting entities into storage...
+2025-03-30 09:31:53,550 - lightrag - INFO - Inserting relationships into storage...
+2025-03-30 09:31:53,550 - lightrag - INFO - Inserting 143 vectors to entities
+2025-03-30 09:31:54,055 - lightrag - INFO - Inserting 113 vectors to relationships
+2025-03-30 09:31:54,435 - lightrag - INFO - Writing graph with 164 nodes, 113 edges
+2025-03-30 09:32:09,309 - lightrag - INFO - kw_prompt result:
+2025-03-30 09:32:09,571 - lightrag - INFO - Local query uses 60 entites, 75 relations, 3 text units
+2025-03-30 09:32:09,815 - lightrag - INFO - Global query uses 80 entites, 60 relations, 3 text units
+2025-03-30 10:22:15,885 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 10:22:15,886 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 10:22:15,888 - lightrag - INFO - Load KV full_docs with 1 data
+2025-03-30 10:22:15,889 - lightrag - INFO - Load KV text_chunks with 10 data
+2025-03-30 10:22:15,895 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 164 nodes, 113 edges
+2025-03-30 10:22:15,914 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 10:22:15,915 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 10:22:15,915 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 10:22:15,916 - lightrag - INFO - Load KV full_docs with 1 data
+2025-03-30 10:22:15,917 - lightrag - INFO - Load KV text_chunks with 10 data
+2025-03-30 10:22:15,925 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 164 nodes, 113 edges
+2025-03-30 10:22:15,944 - lightrag - INFO - Loaded document status storage with 1 records
+2025-03-30 10:22:56,986 - lightrag - INFO - Processing 2 new unique documents
+2025-03-30 10:22:57,584 - lightrag - INFO - Inserting 21 vectors to chunks
+2025-03-30 10:37:05,978 - lightrag - INFO - Inserting entities into storage...
+2025-03-30 10:37:06,017 - lightrag - INFO - Inserting relationships into storage...
+2025-03-30 10:37:06,029 - lightrag - INFO - Inserting 272 vectors to entities
+2025-03-30 10:37:06,866 - lightrag - INFO - Inserting 224 vectors to relationships
+2025-03-30 10:37:07,682 - lightrag - INFO - Writing graph with 478 nodes, 337 edges
+2025-03-30 10:37:07,713 - lightrag - INFO - Inserting 3 vectors to chunks
+2025-03-30 10:41:11,604 - lightrag - INFO - Inserting entities into storage...
+2025-03-30 10:41:11,606 - lightrag - INFO - Inserting relationships into storage...
+2025-03-30 10:41:11,608 - lightrag - INFO - Inserting 24 vectors to entities
+2025-03-30 10:41:12,011 - lightrag - INFO - Inserting 28 vectors to relationships
+2025-03-30 10:41:12,389 - lightrag - INFO - Writing graph with 503 nodes, 365 edges
+2025-03-30 10:41:26,366 - lightrag - INFO - kw_prompt result:
+2025-03-30 10:41:26,665 - lightrag - INFO - Local query uses 60 entites, 89 relations, 4 text units
+2025-03-30 10:41:26,909 - lightrag - INFO - Global query uses 87 entites, 60 relations, 3 text units
+2025-03-30 10:46:17,047 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 10:46:35,352 - lightrag - INFO - kw_prompt result:
+2025-03-30 10:46:35,743 - lightrag - INFO - Local query uses 60 entites, 97 relations, 4 text units
+2025-03-30 10:46:35,997 - lightrag - INFO - Global query uses 80 entites, 60 relations, 3 text units
+2025-03-30 10:53:00,855 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 10:53:28,286 - lightrag - INFO - kw_prompt result:
+2025-03-30 10:53:28,728 - lightrag - INFO - Local query uses 60 entites, 90 relations, 4 text units
+2025-03-30 10:53:29,012 - lightrag - INFO - Global query uses 80 entites, 60 relations, 3 text units
+2025-03-30 10:58:40,921 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 10:59:00,065 - lightrag - INFO - kw_prompt result:
+2025-03-30 10:59:00,469 - lightrag - INFO - Local query uses 60 entites, 106 relations, 4 text units
+2025-03-30 10:59:00,722 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 text units
+2025-03-30 11:17:31,433 - lightrag - INFO - Processing 3 new unique documents
+2025-03-30 11:17:31,439 - lightrag - INFO - Inserting 2 vectors to chunks
+2025-03-30 11:23:17,988 - lightrag - INFO - Inserting entities into storage...
+2025-03-30 11:23:17,993 - lightrag - INFO - Inserting relationships into storage...
+2025-03-30 11:23:17,995 - lightrag - INFO - Inserting 27 vectors to entities
+2025-03-30 11:23:18,544 - lightrag - INFO - Inserting 22 vectors to relationships
+2025-03-30 11:23:19,000 - lightrag - INFO - Writing graph with 526 nodes, 387 edges
+2025-03-30 11:23:19,063 - lightrag - INFO - Inserting 29 vectors to chunks
+2025-03-30 11:33:27,645 - lightrag - ERROR - Failed to process document doc-2b5960068275c07f53170975ac4624b9: Expecting value: line 10 column 1 (char 9)
+Traceback (most recent call last):
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 440, in ainsert
+    raise e
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 400, in ainsert
+    maybe_new_kg = await extract_entities(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 379, in extract_entities
+    results.append(await result)
+                   ^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\asyncio\tasks.py", line 615, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 313, in _process_single_content
+    final_result = await use_llm_func(hint_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\agents\lightrag.py", line 37, in llm_model_func
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\llm.py", line 87, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1564, in _request
+    return await self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1661, in _process_response
+    return await api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_response.py", line 430, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_response.py", line 265, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 10 column 1 (char 9)
+
+2025-03-30 11:33:27,764 - lightrag - INFO - Writing graph with 526 nodes, 387 edges
+2025-03-30 11:33:27,804 - lightrag - INFO - Inserting 3 vectors to chunks
+2025-03-30 11:43:29,747 - lightrag - ERROR - Failed to process document doc-88ce8912f2c8587da8a4fb3e507d3189: Expecting value: line 10 column 1 (char 9)
+Traceback (most recent call last):
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 440, in ainsert
+    raise e
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 400, in ainsert
+    maybe_new_kg = await extract_entities(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 379, in extract_entities
+    results.append(await result)
+                   ^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\asyncio\tasks.py", line 615, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 313, in _process_single_content
+    final_result = await use_llm_func(hint_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\agents\lightrag.py", line 37, in llm_model_func
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\lightrag\llm.py", line 87, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1564, in _request
+    return await self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1661, in _process_response
+    return await api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_response.py", line 430, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_response.py", line 265, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\LightRAG-Deepseek-Test-main (2)\LightRAG-Deepseek-Test-main\.conda\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 10 column 1 (char 9)
+
+2025-03-30 11:43:29,845 - lightrag - INFO - Writing graph with 526 nodes, 387 edges
+2025-03-30 11:54:33,479 - lightrag - INFO - Processing 2 new unique documents
+2025-03-30 11:54:33,545 - lightrag - INFO - Inserting 29 vectors to chunks
+2025-03-30 12:06:38,441 - lightrag - INFO - Inserting entities into storage...
+2025-03-30 12:08:17,902 - lightrag - INFO - Inserting relationships into storage...
+2025-03-30 12:08:17,934 - lightrag - INFO - Inserting 346 vectors to entities
+2025-03-30 12:08:19,197 - lightrag - INFO - Inserting 319 vectors to relationships
+2025-03-30 12:08:20,174 - lightrag - INFO - Writing graph with 928 nodes, 703 edges
+2025-03-30 12:08:20,228 - lightrag - INFO - Inserting 3 vectors to chunks
+2025-03-30 12:11:47,058 - lightrag - INFO - Inserting entities into storage...
+2025-03-30 12:11:47,063 - lightrag - INFO - Inserting relationships into storage...
+2025-03-30 12:11:47,066 - lightrag - INFO - Inserting 53 vectors to entities
+2025-03-30 12:11:47,504 - lightrag - INFO - Inserting 29 vectors to relationships
+2025-03-30 12:11:48,102 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 12:12:03,674 - lightrag - INFO - kw_prompt result:
+2025-03-30 12:12:03,947 - lightrag - INFO - Local query uses 60 entites, 148 relations, 3 text units
+2025-03-30 12:12:04,203 - lightrag - INFO - Global query uses 42 entites, 60 relations, 3 text units
+2025-03-30 12:14:46,392 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 12:15:10,090 - lightrag - INFO - kw_prompt result:
+2025-03-30 12:15:10,446 - lightrag - INFO - Local query uses 60 entites, 89 relations, 3 text units
+2025-03-30 12:15:10,715 - lightrag - INFO - Global query uses 50 entites, 60 relations, 3 text units
+2025-03-30 12:19:56,672 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 12:20:24,141 - lightrag - INFO - kw_prompt result:
+2025-03-30 12:20:24,533 - lightrag - INFO - Local query uses 60 entites, 202 relations, 4 text units
+2025-03-30 12:20:24,802 - lightrag - INFO - Global query uses 37 entites, 60 relations, 3 text units
+2025-03-30 14:34:58,310 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 14:35:17,574 - lightrag - INFO - kw_prompt result:
+2025-03-30 14:35:17,948 - lightrag - INFO - Local query uses 60 entites, 172 relations, 4 text units
+2025-03-30 14:35:18,210 - lightrag - INFO - Global query uses 59 entites, 60 relations, 3 text units
+2025-03-30 14:37:42,648 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 14:38:06,102 - lightrag - INFO - kw_prompt result:
+2025-03-30 14:38:06,426 - lightrag - INFO - Local query uses 60 entites, 76 relations, 4 text units
+2025-03-30 14:38:06,676 - lightrag - INFO - Global query uses 49 entites, 60 relations, 3 text units
+2025-03-30 19:25:58,703 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:25:58,707 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:25:58,711 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:25:58,717 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:25:58,754 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:25:58,878 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:25:58,879 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:25:58,880 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:25:58,883 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:25:58,887 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:25:58,929 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:25:59,030 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:37:59,173 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:37:59,173 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:37:59,173 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:37:59,183 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:37:59,211 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:37:59,304 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:37:59,306 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:37:59,307 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:37:59,310 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:37:59,313 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:37:59,352 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:37:59,454 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:39:26,443 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:39:26,449 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:39:26,449 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:39:26,457 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:39:26,751 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:39:26,866 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:39:26,866 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:39:26,867 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:39:26,873 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:39:26,878 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:39:26,914 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:39:27,014 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:44:02,405 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:44:02,409 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:44:02,410 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:44:02,416 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:44:02,672 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:44:02,761 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:44:02,761 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:44:02,762 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:44:02,766 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:44:02,772 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:44:02,808 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:44:02,897 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:44:59,618 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:44:59,620 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:44:59,621 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:44:59,625 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:44:59,839 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:44:59,931 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 19:44:59,931 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 19:44:59,932 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 19:44:59,934 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 19:44:59,938 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 19:44:59,973 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 19:45:00,057 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:01:53,521 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:01:53,521 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:01:53,528 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:01:53,531 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:01:53,783 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:02:59,856 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:08:58,813 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:08:58,813 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:08:58,815 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:08:58,822 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:08:59,033 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:10:58,068 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:16:23,635 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:16:23,637 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:16:23,639 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:16:23,645 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:16:23,875 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:19:34,497 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:21:36,926 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:23:24,831 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:25:54,010 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:25:54,017 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:25:54,020 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:25:54,024 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:25:54,240 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:25:54,327 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:25:54,327 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:25:54,328 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:25:54,330 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:25:54,334 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:25:54,370 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:25:54,458 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:28:02,843 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:28:02,843 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:28:02,846 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:28:02,854 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:28:03,071 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:28:03,177 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:28:03,179 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:28:03,180 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:28:03,183 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:28:03,189 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:28:03,236 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:28:03,347 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:31:25,236 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:31:25,236 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:31:25,241 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:31:25,246 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:31:25,480 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:31:25,569 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:31:25,570 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:31:25,571 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:31:25,573 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:31:25,577 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:31:25,610 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:31:25,704 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:34:02,205 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:34:02,205 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:34:02,210 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:34:02,210 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:34:02,473 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:34:02,581 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:34:02,581 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:34:02,582 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:34:02,586 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:34:02,586 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:34:02,620 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:34:02,707 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:34:27,509 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:34:48,956 - lightrag - INFO - kw_prompt result:
+2025-03-30 20:34:49,621 - lightrag - INFO - Local query uses 60 entites, 150 relations, 4 text units
+2025-03-30 20:34:49,894 - lightrag - INFO - Global query uses 78 entites, 60 relations, 3 text units
+2025-03-30 20:37:54,371 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:37:54,373 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:37:54,377 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:37:54,383 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:37:54,591 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:37:54,677 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:37:54,678 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:37:54,679 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:37:54,683 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:37:54,685 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:37:54,715 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:37:54,800 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:38:23,502 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:40:00,853 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:40:22,258 - lightrag - INFO - kw_prompt result:
+2025-03-30 20:40:23,191 - lightrag - INFO - Local query uses 60 entites, 86 relations, 3 text units
+2025-03-30 20:40:23,496 - lightrag - INFO - Global query uses 34 entites, 60 relations, 3 text units
+2025-03-30 20:42:04,463 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:47:10,807 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:47:10,808 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:47:10,810 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:47:10,814 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:47:11,025 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:47:11,114 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:47:11,115 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:47:11,116 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:47:11,119 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:47:11,122 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:47:11,166 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:47:11,254 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:47:12,712 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:49:46,974 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:49:46,975 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:49:46,979 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:49:46,984 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:49:47,201 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:49:47,291 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:49:47,293 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:49:47,294 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:49:47,297 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:49:47,300 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:49:47,344 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:49:47,447 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:49:48,308 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:53:53,344 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:53:53,351 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:53:53,354 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:53:53,358 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:53:53,555 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:53:53,656 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:53:53,658 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:53:53,660 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:53:53,664 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:53:53,668 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:53:53,733 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:53:53,844 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:53:54,862 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 20:57:08,132 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:57:08,134 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:57:08,136 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:57:08,138 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:57:08,401 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:57:08,505 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:57:08,506 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 20:57:08,507 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 20:57:08,510 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 20:57:08,511 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 20:57:08,555 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 20:57:08,646 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 20:57:09,603 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:00:25,946 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:00:25,946 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:00:25,949 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:00:25,952 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:00:26,181 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:00:26,341 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 21:00:26,342 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:00:26,343 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:00:26,350 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:00:26,356 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:00:26,415 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:00:26,528 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 21:00:27,495 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:00:28,456 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:05:53,272 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:05:53,278 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:05:53,283 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:05:53,290 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:05:53,495 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:05:53,586 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 21:05:53,586 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:05:53,588 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:05:53,591 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:05:53,594 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:05:53,635 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:05:53,735 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 21:05:54,613 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:05:55,806 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:06:37,484 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:14:36,082 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:14:36,086 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:14:36,087 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:14:36,093 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:14:36,312 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:14:36,408 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 21:14:36,408 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:14:36,409 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:14:36,415 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:14:36,420 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:14:36,467 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:14:36,566 - lightrag - INFO - Loaded document status storage with 6 records
+2025-03-30 21:14:37,486 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:14:38,638 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-30 21:14:55,245 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:14:55,799 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 21:24:59,659 - lightrag - ERROR - Failed to process document doc-632db47968eba5ff534a37134f76f30b: Expecting value: line 10 column 1 (char 9)
+Traceback (most recent call last):
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 440, in ainsert
+    raise e
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\lightrag.py", line 400, in ainsert
+    maybe_new_kg = await extract_entities(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 379, in extract_entities
+    results.append(await result)
+                   ^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\asyncio\tasks.py", line 615, in _wait_for_one
+    return f.result()  # May raise f.exception().
+           ^^^^^^^^^^
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\operate.py", line 313, in _process_single_content
+    final_result = await use_llm_func(hint_prompt)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\utils.py", line 127, in wait_func
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\agents\lightrag.py", line 37, in llm_model_func
+    return await openai_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 189, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 111, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 153, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\_utils.py", line 99, in inner
+    return call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\__init__.py", line 398, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\concurrent\futures\_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\concurrent\futures\_base.py", line 401, in __get_result
+    raise self._exception
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\tenacity\asyncio\__init__.py", line 114, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\再连接上数据库\LightRAG-Deepseek-Test-main\lightrag\llm.py", line 87, in openai_complete_if_cache
+    response = await openai_async_client.chat.completions.create(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\resources\chat\completions\completions.py", line 2000, in create
+    return await self._post(
+           ^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1767, in post
+    return await self.request(cast_to, opts, stream=stream, stream_cls=stream_cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1461, in request
+    return await self._request(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1564, in _request
+    return await self._process_response(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_base_client.py", line 1661, in _process_response
+    return await api_response.parse()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_response.py", line 430, in parse
+    parsed = self._parse(to=to)
+             ^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\openai\_response.py", line 265, in _parse
+    data = response.json()
+           ^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\site-packages\httpx\_models.py", line 832, in json
+    return jsonlib.loads(self.content, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\再连接上数据库\LightRAG-Deepseek-Test-main\.conda\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 10 column 1 (char 9)
+
+2025-03-30 21:24:59,828 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 21:33:25,868 - lightrag - INFO - kw_prompt result:
+2025-03-30 21:33:26,255 - lightrag - INFO - Local query uses 60 entites, 77 relations, 3 text units
+2025-03-30 21:33:26,506 - lightrag - INFO - Global query uses 38 entites, 60 relations, 3 text units
+2025-03-30 21:35:24,252 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:35:24,261 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 21:45:16,322 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 21:46:14,174 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:46:14,176 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:46:14,178 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:46:14,179 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:46:14,407 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:46:14,497 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:46:14,497 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:46:14,498 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:46:14,502 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:46:14,505 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:46:14,541 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:46:14,640 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:46:15,611 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:46:15,986 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 21:49:33,474 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 21:49:46,930 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:49:46,931 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:49:46,935 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:49:46,939 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:49:47,191 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:49:47,294 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:49:47,295 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:49:47,296 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:49:47,299 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:49:47,303 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:49:47,333 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:49:47,417 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:49:48,433 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:49:48,844 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 21:51:13,024 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 21:51:26,536 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:51:26,536 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:51:26,536 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:51:26,546 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:51:26,760 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:51:26,855 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:51:26,855 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:51:26,857 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:51:26,859 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:51:26,865 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:51:26,920 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:51:27,057 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:51:28,032 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:51:28,442 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 21:54:05,574 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 21:55:53,210 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:55:53,210 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:55:53,210 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:55:53,220 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:55:53,442 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:55:53,532 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:55:53,533 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-30 21:55:53,534 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-30 21:55:53,536 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-30 21:55:53,541 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-30 21:55:53,586 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-30 21:55:53,679 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-30 21:55:53,683 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:55:54,026 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-30 21:56:53,909 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-30 21:56:55,719 - lightrag - INFO - Processing 1 new unique documents
+2025-03-30 21:56:55,733 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-31 08:29:56,094 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 08:29:56,098 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 08:29:56,099 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-31 08:29:56,103 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-31 08:29:56,367 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-31 08:29:56,478 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 08:29:56,479 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 08:29:56,480 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 08:29:56,482 - lightrag - INFO - Load KV full_docs with 6 data
+2025-03-31 08:29:56,487 - lightrag - INFO - Load KV text_chunks with 68 data
+2025-03-31 08:29:56,534 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 978 nodes, 732 edges
+2025-03-31 08:29:56,625 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 08:29:56,625 - lightrag - INFO - Processing 1 new unique documents
+2025-03-31 08:29:57,082 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-31 08:30:56,833 - lightrag - INFO - Writing graph with 978 nodes, 732 edges
+2025-03-31 08:30:57,938 - lightrag - INFO - Processing 1 new unique documents
+2025-03-31 08:30:57,945 - lightrag - INFO - Inserting 10 vectors to chunks
+2025-03-31 08:34:49,214 - lightrag - INFO - Inserting entities into storage...
+2025-03-31 08:34:49,224 - lightrag - INFO - Inserting relationships into storage...
+2025-03-31 08:34:49,231 - lightrag - INFO - Inserting 125 vectors to entities
+2025-03-31 08:34:49,876 - lightrag - INFO - Inserting 102 vectors to relationships
+2025-03-31 08:34:50,385 - lightrag - INFO - Writing graph with 1105 nodes, 834 edges
+2025-03-31 08:39:01,400 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 08:39:01,401 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 08:39:01,404 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 08:39:01,407 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 08:39:01,636 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 08:39:01,739 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 08:39:01,740 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 08:39:01,742 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 08:39:01,744 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 08:39:01,747 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 08:39:01,784 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 08:39:01,890 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 08:39:01,893 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 08:39:02,916 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 08:42:48,872 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 08:43:08,298 - lightrag - INFO - kw_prompt result:
+2025-03-31 08:43:09,073 - lightrag - INFO - Local query uses 60 entites, 90 relations, 4 text units
+2025-03-31 08:43:09,399 - lightrag - INFO - Global query uses 65 entites, 60 relations, 4 text units
+2025-03-31 08:56:04,869 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 08:56:04,871 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 08:56:04,874 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 08:56:04,877 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 08:56:05,101 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 08:56:05,209 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 08:56:05,211 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 08:56:05,212 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 08:56:05,216 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 08:56:05,224 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 08:56:05,271 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 08:56:05,377 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 08:56:05,382 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 08:56:06,783 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 08:56:59,009 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 08:57:25,903 - lightrag - INFO - kw_prompt result:
+2025-03-31 08:57:26,663 - lightrag - INFO - Local query uses 60 entites, 77 relations, 4 text units
+2025-03-31 08:57:26,923 - lightrag - INFO - Global query uses 55 entites, 60 relations, 4 text units
+2025-03-31 09:15:23,253 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:15:40,884 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:15:40,884 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:15:40,886 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:15:40,891 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:15:41,120 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:15:41,223 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:15:41,224 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:15:41,224 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:15:41,227 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:15:41,230 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:15:41,269 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:15:41,363 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:15:41,367 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:20:08,570 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:20:30,805 - lightrag - INFO - kw_prompt result:
+2025-03-31 09:20:31,673 - lightrag - INFO - Local query uses 60 entites, 86 relations, 4 text units
+2025-03-31 09:20:31,905 - lightrag - INFO - Global query uses 67 entites, 60 relations, 4 text units
+2025-03-31 09:23:07,640 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:23:07,640 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:23:07,640 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:23:07,649 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:23:07,864 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:23:07,978 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:23:07,978 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:23:07,979 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:23:07,982 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:23:07,985 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:23:08,029 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:23:08,147 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:23:08,156 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:28:01,023 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:28:01,023 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:28:01,023 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:28:01,033 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:28:01,284 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:28:01,381 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:28:01,381 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:28:01,383 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:28:01,385 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:28:01,388 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:28:01,437 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:28:01,539 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:28:01,540 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:28:36,986 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:37:42,447 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:37:42,459 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:37:42,460 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:37:42,470 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:37:42,767 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:37:42,885 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:37:42,886 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:37:42,888 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:37:42,891 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:37:42,896 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:37:42,937 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:37:43,053 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:37:43,054 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:38:19,688 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:38:38,542 - lightrag - INFO - kw_prompt result:
+2025-03-31 09:38:39,379 - lightrag - INFO - Local query uses 60 entites, 84 relations, 4 text units
+2025-03-31 09:38:39,617 - lightrag - INFO - Global query uses 64 entites, 60 relations, 4 text units
+2025-03-31 09:41:40,392 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:41:40,401 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:41:40,408 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:41:40,421 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:41:40,639 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:41:40,738 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:41:40,740 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:41:40,741 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:41:40,742 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:41:40,746 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:41:40,783 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:41:40,891 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:41:40,893 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:42:15,408 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:42:34,297 - lightrag - INFO - kw_prompt result:
+2025-03-31 09:42:35,173 - lightrag - INFO - Local query uses 60 entites, 81 relations, 3 text units
+2025-03-31 09:42:35,440 - lightrag - INFO - Global query uses 65 entites, 60 relations, 4 text units
+2025-03-31 09:54:02,307 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:54:02,307 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:54:02,310 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:54:02,316 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:54:02,548 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:54:02,673 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:54:02,675 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 09:54:02,675 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 09:54:02,679 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 09:54:02,684 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 09:54:02,722 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 09:54:02,842 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 09:54:02,844 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:54:45,279 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 09:55:19,214 - lightrag - INFO - kw_prompt result:
+2025-03-31 09:55:20,390 - lightrag - INFO - Local query uses 60 entites, 79 relations, 4 text units
+2025-03-31 09:55:20,642 - lightrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2025-03-31 10:03:40,493 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:03:40,503 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:03:40,503 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:03:40,513 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:03:40,722 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:03:40,865 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:03:40,865 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:03:40,867 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:03:40,874 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:03:40,877 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:03:40,923 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:03:41,035 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:03:41,039 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:04:03,538 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:04:41,345 - lightrag - INFO - kw_prompt result:
+2025-03-31 10:04:42,320 - lightrag - INFO - Local query uses 60 entites, 82 relations, 3 text units
+2025-03-31 10:04:42,593 - lightrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2025-03-31 10:18:10,046 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:18:10,049 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:18:10,057 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:18:10,066 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:18:10,309 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:18:10,416 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:18:10,417 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:18:10,419 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:18:10,421 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:18:10,426 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:18:10,483 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:18:10,581 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:18:10,583 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:21:01,189 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:21:01,190 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:21:01,193 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:21:01,201 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:21:01,421 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:21:01,559 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:21:01,563 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:21:01,564 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:21:01,567 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:21:01,572 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:21:01,627 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:21:01,729 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:21:01,731 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:29:14,059 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:29:14,060 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:29:14,064 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:29:14,069 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:29:14,298 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:29:14,396 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:29:14,396 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:29:14,398 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:29:14,399 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:29:14,404 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:29:14,459 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:29:14,580 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:29:14,584 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:29:30,246 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:29:30,248 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:29:30,257 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:29:30,266 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:29:30,575 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:29:30,693 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:29:30,694 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:29:30,695 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:29:30,703 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:29:30,708 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:29:30,775 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:29:30,954 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:29:30,955 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:34:45,316 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:34:45,317 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:34:45,321 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:34:45,328 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:34:45,571 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:34:45,687 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:34:45,688 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:34:45,689 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:34:45,691 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:34:45,696 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:34:45,737 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:34:45,855 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:34:45,858 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:40:58,684 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:40:58,686 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:40:58,690 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:40:58,696 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:40:58,936 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:40:59,050 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:40:59,051 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:40:59,051 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:40:59,054 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:40:59,059 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:40:59,103 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:40:59,215 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:40:59,217 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:42:05,264 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:42:45,167 - lightrag - INFO - kw_prompt result:
+2025-03-31 10:42:45,882 - lightrag - INFO - Local query uses 60 entites, 80 relations, 3 text units
+2025-03-31 10:42:46,187 - lightrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2025-03-31 10:44:23,647 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:44:52,513 - lightrag - INFO - kw_prompt result:
+2025-03-31 10:44:52,891 - lightrag - INFO - Local query uses 60 entites, 76 relations, 3 text units
+2025-03-31 10:44:53,159 - lightrag - INFO - Global query uses 65 entites, 60 relations, 4 text units
+2025-03-31 10:46:12,871 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:52:04,636 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:52:04,639 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:52:04,642 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:52:04,648 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:52:04,904 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:52:05,005 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:52:05,006 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:52:05,007 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:52:05,010 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:52:05,013 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:52:05,062 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:52:05,168 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:52:05,171 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:56:52,264 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:56:52,265 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:56:52,271 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:56:52,277 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:56:52,530 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:56:52,645 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:56:52,647 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:56:52,647 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:56:52,650 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:56:52,654 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:56:52,706 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:56:52,822 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:56:52,825 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 10:59:29,965 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:59:29,966 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:59:29,970 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:59:29,973 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:59:30,221 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:59:30,342 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:59:30,343 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 10:59:30,343 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 10:59:30,346 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 10:59:30,350 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 10:59:30,385 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 10:59:30,485 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 10:59:30,486 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 11:06:24,817 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 11:06:24,818 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 11:06:24,823 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 11:06:24,827 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 11:06:25,069 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 11:06:25,187 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 11:06:25,188 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 11:06:25,189 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 11:06:25,192 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 11:06:25,199 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 11:06:25,242 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 11:06:25,370 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 11:06:25,372 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 11:07:05,002 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:07:05,904 - lightrag - INFO - Local query uses 60 entites, 89 relations, 4 text units
+2025-03-31 11:07:06,258 - lightrag - INFO - Global query uses 46 entites, 60 relations, 3 text units
+2025-03-31 11:09:43,022 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:09:43,443 - lightrag - INFO - Local query uses 60 entites, 59 relations, 3 text units
+2025-03-31 11:09:43,719 - lightrag - INFO - Global query uses 44 entites, 60 relations, 4 text units
+2025-03-31 11:12:21,625 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:12:22,053 - lightrag - INFO - Local query uses 60 entites, 155 relations, 4 text units
+2025-03-31 11:12:22,343 - lightrag - INFO - Global query uses 62 entites, 60 relations, 3 text units
+2025-03-31 11:15:49,727 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:15:50,053 - lightrag - INFO - Local query uses 60 entites, 81 relations, 3 text units
+2025-03-31 11:15:50,323 - lightrag - INFO - Global query uses 51 entites, 60 relations, 3 text units
+2025-03-31 11:18:02,431 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:18:02,942 - lightrag - INFO - Local query uses 60 entites, 65 relations, 3 text units
+2025-03-31 11:18:03,196 - lightrag - INFO - Global query uses 40 entites, 60 relations, 3 text units
+2025-03-31 11:23:57,638 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 11:23:57,639 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 11:23:57,647 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 11:23:57,656 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 11:23:57,921 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 11:23:58,044 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 11:23:58,045 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 11:23:58,046 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 11:23:58,049 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 11:23:58,053 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 11:23:58,107 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 11:23:58,226 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 11:23:58,229 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 11:24:30,650 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:24:31,610 - lightrag - INFO - Local query uses 60 entites, 78 relations, 3 text units
+2025-03-31 11:24:31,871 - lightrag - INFO - Global query uses 45 entites, 60 relations, 3 text units
+2025-03-31 11:27:22,475 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 11:27:22,478 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 11:27:22,482 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 11:27:22,490 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 11:27:22,734 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 11:27:22,833 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 11:27:22,833 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-03-31 11:27:22,835 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-03-31 11:27:22,838 - lightrag - INFO - Load KV full_docs with 7 data
+2025-03-31 11:27:22,841 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-03-31 11:27:22,882 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-03-31 11:27:22,985 - lightrag - INFO - Loaded document status storage with 7 records
+2025-03-31 11:27:22,987 - lightrag - INFO - All documents have been processed or are duplicates
+2025-03-31 11:28:10,543 - lightrag - INFO - kw_prompt result:
+2025-03-31 11:28:11,569 - lightrag - INFO - Local query uses 60 entites, 57 relations, 3 text units
+2025-03-31 11:28:11,857 - lightrag - INFO - Global query uses 46 entites, 60 relations, 3 text units
+2025-04-10 10:19:33,794 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-10 10:19:33,800 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-10 10:19:33,804 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-10 10:19:33,808 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-10 10:19:34,069 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-10 10:19:34,225 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-10 10:19:34,227 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-10 10:19:34,230 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-10 10:19:34,234 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-10 10:19:34,239 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-10 10:19:34,319 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-10 10:19:34,487 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-10 10:19:34,490 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-10 10:20:13,346 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-10 10:21:23,084 - lightrag - INFO - kw_prompt result:
+2025-04-10 10:21:23,084 - lightrag - ERROR - No JSON-like structure found in the result.
+2025-04-10 10:22:54,727 - lightrag - INFO - kw_prompt result:
+2025-04-10 10:22:55,573 - lightrag - INFO - Local query uses 60 entites, 85 relations, 4 text units
+2025-04-10 10:22:55,835 - lightrag - INFO - Global query uses 64 entites, 60 relations, 4 text units
+2025-04-10 10:24:21,176 - lightrag - INFO - kw_prompt result:
+2025-04-10 10:24:21,513 - lightrag - INFO - Local query uses 60 entites, 81 relations, 3 text units
+2025-04-10 10:24:21,812 - lightrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2025-04-16 14:51:48,996 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-16 14:51:48,999 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-16 14:51:49,001 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-16 14:51:49,007 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-16 14:51:49,216 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-16 14:51:49,374 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-16 14:51:49,378 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-16 14:51:49,380 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-16 14:51:49,386 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-16 14:51:49,391 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-16 14:51:49,444 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-16 14:51:49,571 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-16 14:51:49,574 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-16 14:55:18,847 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-16 14:55:57,767 - lightrag - INFO - kw_prompt result:
+2025-04-16 14:55:58,593 - lightrag - INFO - Local query uses 60 entites, 71 relations, 4 text units
+2025-04-16 14:55:59,016 - lightrag - INFO - Global query uses 59 entites, 60 relations, 3 text units
+2025-04-16 14:58:17,861 - lightrag - INFO - kw_prompt result:
+2025-04-16 14:58:18,153 - lightrag - INFO - Local query uses 60 entites, 89 relations, 3 text units
+2025-04-16 14:58:18,420 - lightrag - INFO - Global query uses 64 entites, 60 relations, 4 text units
+2025-04-16 14:59:56,626 - lightrag - INFO - kw_prompt result:
+2025-04-16 14:59:56,984 - lightrag - INFO - Local query uses 60 entites, 80 relations, 3 text units
+2025-04-16 14:59:57,347 - lightrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2025-04-16 15:02:31,573 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-16 15:02:31,574 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-16 15:02:31,578 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-16 15:02:31,580 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-16 15:02:31,817 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-16 15:02:31,923 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-16 15:02:31,923 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-16 15:02:31,923 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-16 15:02:31,929 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-16 15:02:31,929 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-16 15:02:31,970 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-16 15:02:32,094 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-16 15:02:32,097 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 14:59:13,538 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 14:59:13,543 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 14:59:13,547 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 14:59:13,553 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 14:59:13,866 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 14:59:14,032 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 14:59:14,032 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 14:59:14,032 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 14:59:14,040 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 14:59:14,048 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 14:59:14,098 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 14:59:14,248 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 14:59:14,257 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:03:02,582 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:03:03,615 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:03:04,724 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:03:05,963 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:04:03,227 - lightrag - INFO - kw_prompt result:
+2025-04-21 15:04:10,686 - lightrag - INFO - Local query uses 60 entites, 41 relations, 3 text units
+2025-04-21 15:04:10,971 - lightrag - INFO - Global query uses 27 entites, 60 relations, 3 text units
+2025-04-21 15:18:20,348 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:18:21,384 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:18:22,527 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:18:23,829 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:20:01,343 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:20:01,350 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:20:01,350 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:20:01,358 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:20:01,612 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:20:01,762 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:20:01,762 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:20:01,762 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:20:01,772 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:20:01,778 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:20:01,837 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:20:01,970 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:20:01,974 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:21:09,899 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:21:10,933 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:21:12,058 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:21:13,308 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:24:43,071 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:24:43,073 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:24:43,075 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:24:43,083 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:24:43,320 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:24:43,449 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:24:43,455 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:24:43,455 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:24:43,460 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:24:43,466 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:24:43,507 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:24:43,655 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:24:43,661 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:26:10,494 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:26:11,540 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:26:12,650 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:26:13,858 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:31:06,795 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:31:06,810 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:31:06,810 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:31:06,820 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:31:07,108 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:31:07,319 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:31:07,319 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:31:07,327 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:31:07,327 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:31:07,333 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:31:07,386 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:31:07,529 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:31:07,538 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:35:41,060 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:35:41,062 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:35:41,068 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:35:41,076 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:35:41,338 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:35:41,511 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:35:41,511 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:35:41,516 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:35:41,521 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:35:41,523 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:35:41,587 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:35:41,758 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:35:41,763 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:36:42,559 - lightrag - INFO - kw_prompt result:
+2025-04-21 15:36:43,540 - lightrag - INFO - Local query uses 60 entites, 80 relations, 4 text units
+2025-04-21 15:36:43,831 - lightrag - INFO - Global query uses 64 entites, 60 relations, 4 text units
+2025-04-21 15:41:00,029 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:41:00,031 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:41:00,037 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:41:00,044 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:41:00,295 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:41:00,484 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:41:00,484 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:41:00,487 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:41:00,488 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:41:00,496 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:41:00,570 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:41:00,732 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:41:00,740 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:42:55,381 - lightrag - INFO - kw_prompt result:
+2025-04-21 15:42:56,415 - lightrag - INFO - Local query uses 60 entites, 38 relations, 3 text units
+2025-04-21 15:42:56,706 - lightrag - INFO - Global query uses 37 entites, 60 relations, 3 text units
+2025-04-21 15:51:05,988 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:51:05,988 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:51:05,988 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:51:06,002 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:51:06,261 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:51:06,384 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:51:06,386 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 15:51:06,388 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 15:51:06,392 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 15:51:06,395 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 15:51:06,439 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 15:51:06,578 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 15:51:06,578 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-21 15:52:40,514 - lightrag - INFO - kw_prompt result:
+2025-04-21 15:52:41,696 - lightrag - INFO - Local query uses 60 entites, 85 relations, 4 text units
+2025-04-21 15:52:41,946 - lightrag - INFO - Global query uses 70 entites, 60 relations, 4 text units
+2025-04-21 15:55:24,705 - lightrag - INFO - kw_prompt result:
+2025-04-21 15:55:25,077 - lightrag - INFO - Local query uses 60 entites, 91 relations, 3 text units
+2025-04-21 15:55:25,385 - lightrag - INFO - Global query uses 65 entites, 60 relations, 4 text units
+2025-04-21 16:04:25,166 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 16:04:25,168 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 16:04:25,168 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 16:04:25,176 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 16:04:25,418 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 16:04:25,582 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 16:04:25,583 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-21 16:04:25,585 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-21 16:04:25,585 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-21 16:04:25,592 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-21 16:04:25,638 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-21 16:04:25,769 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-21 16:04:25,772 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-27 14:20:56,180 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-27 14:20:56,212 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-27 14:20:56,212 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-27 14:20:56,223 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-27 14:20:56,427 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-27 14:20:56,558 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-27 14:20:56,560 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-27 14:20:56,560 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-27 14:20:56,566 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-27 14:20:56,571 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-27 14:20:56,611 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-27 14:20:56,775 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-27 14:20:56,775 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-27 14:23:52,948 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-27 14:23:52,948 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-27 14:23:52,948 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-27 14:23:52,963 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-27 14:23:53,168 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-27 14:23:53,305 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-27 14:23:53,317 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-27 14:23:53,317 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-27 14:23:53,321 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-27 14:23:53,325 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-27 14:23:53,370 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-27 14:23:53,506 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-27 14:23:53,509 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-27 14:25:58,630 - lightrag - INFO - kw_prompt result:
+2025-04-27 14:25:59,472 - lightrag - INFO - Local query uses 60 entites, 82 relations, 3 text units
+2025-04-27 14:25:59,743 - lightrag - INFO - Global query uses 66 entites, 60 relations, 4 text units
+2025-04-27 14:27:52,034 - lightrag - INFO - kw_prompt result:
+2025-04-27 14:27:52,298 - lightrag - INFO - Local query uses 60 entites, 85 relations, 4 text units
+2025-04-27 14:27:52,599 - lightrag - INFO - Global query uses 71 entites, 60 relations, 4 text units
+2025-04-27 14:30:51,851 - lightrag - INFO - kw_prompt result:
+2025-04-27 14:30:52,174 - lightrag - INFO - Local query uses 60 entites, 82 relations, 4 text units
+2025-04-27 14:30:52,427 - lightrag - INFO - Global query uses 63 entites, 60 relations, 4 text units
+2025-04-27 14:39:50,680 - lightrag - INFO - kw_prompt result:
+2025-04-27 14:39:50,990 - lightrag - INFO - Local query uses 60 entites, 77 relations, 4 text units
+2025-04-27 14:39:51,268 - lightrag - INFO - Global query uses 67 entites, 60 relations, 4 text units
+2025-04-28 11:56:50,990 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-28 11:56:50,997 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-28 11:56:51,001 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-28 11:56:51,004 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-28 11:56:51,225 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-28 11:56:51,344 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-28 11:56:51,345 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-28 11:56:51,346 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-28 11:56:51,350 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-28 11:56:51,353 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-28 11:56:51,401 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-28 11:56:51,535 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-28 11:56:51,537 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-28 11:59:23,683 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-28 11:59:23,685 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-28 11:59:23,689 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-28 11:59:23,696 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-28 11:59:23,928 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-28 11:59:24,073 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-28 11:59:24,074 - lightrag - INFO - Logger initialized for working directory: ./working
+2025-04-28 11:59:24,075 - lightrag - INFO - Load KV llm_response_cache with 1 data
+2025-04-28 11:59:24,078 - lightrag - INFO - Load KV full_docs with 7 data
+2025-04-28 11:59:24,083 - lightrag - INFO - Load KV text_chunks with 78 data
+2025-04-28 11:59:24,129 - lightrag - INFO - Loaded graph from ./working\graph_chunk_entity_relation.graphml with 1105 nodes, 834 edges
+2025-04-28 11:59:24,238 - lightrag - INFO - Loaded document status storage with 7 records
+2025-04-28 11:59:24,249 - lightrag - INFO - All documents have been processed or are duplicates
+2025-04-28 12:00:24,716 - lightrag - INFO - kw_prompt result:
+2025-04-28 12:00:25,672 - lightrag - INFO - Local query uses 60 entites, 84 relations, 4 text units
+2025-04-28 12:00:26,128 - lightrag - INFO - Global query uses 56 entites, 60 relations, 4 text units
+2025-04-28 12:04:35,640 - lightrag - INFO - kw_prompt result:
+2025-04-28 12:04:36,095 - lightrag - INFO - Local query uses 60 entites, 81 relations, 4 text units
+2025-04-28 12:04:36,726 - lightrag - INFO - Global query uses 41 entites, 60 relations, 3 text units
